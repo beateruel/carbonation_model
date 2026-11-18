@@ -12,12 +12,11 @@ authors:
   - family-names: Royo
     given-names: Beatriz
     affiliation: "Zaragoza Logistics Center (ZLC)"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0000-0001-8208-716X"
 version: "1.0"
 date-released: "2026-11-30"
-# doi: "10.5281/zenodo.XXXXXXX"
-# repository-code: "https://github.com/ACCOUNT/carbonation_model"
-license: "CC-BY-4.0"
+Repository-code: "https://github.com/beateruel/carbonation_model.git"
+license: "mit"
 keywords:
   - system dynamics
   - carbon capture and utilisation

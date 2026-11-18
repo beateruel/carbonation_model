@@ -50,9 +50,9 @@ All runs use a weekly time step.
 | S2 — Increased product demand | `model/carbonation_baseline.mdl` | Adoption rate = 0.1, 0.5, 0.6 (baseline 0.3) | Week 100 | idem |
 | S3 — Increased demand and slag | `model/carbonation_baseline.mdl` | Cement demand = 10,000 kg/week; slag supply = 350, 700, 1,750, 3,500 kg/week | Week 100 | idem |
 | S4 — Reduced CO₂ availability | `model/carbonation_baseline.mdl` | CO₂ diverted fraction = 0.25, 0.5, 0.75, 0.9, 0.92, 0.94, 0.95, 0.96, 0.98 (baseline 0) | Week 100 | idem |
-| BV1 — Market uptake | `validation_scenarios/BV1/carbonation_BV1.mdl` | Grid: hub market share = 0.005%, 0.01%, 0.05% × useful granulometry fraction = 4%, 8%, 16%. Pathway: demand ×2 at week 52 and ×5 at week 104 | 156 weeks | `BV1_results_summary.xlsx` |
-| BV2 — Capacity requirements | `validation_scenarios/BV2/carbonation_BV2.mdl` and `carbonation_BV2_anticipated_design.mdl` | Constant demand (C1–C3: operating hours 45, 90, 105 h/week; storage 3,600, 7,200, 9,200 kg) and step demand with capacity expanded at the step (S1) or four weeks earlier (S2) | 156 weeks | `BV2_results_summary.xlsx` |
-| BV3 — Economic viability | `validation_scenarios/BV3/carbonation_BV3.mdl` | Case C2 of BV2 at steady state; operating costs and carbon prices calculated in the workbook | 156 weeks | `BV3_results_summary.xlsx` |
+| BV1 — Market uptake | `validation_scenarios/BV1/carbonation_BV1.mdl` | Grid: hub market share = 0.005%, 0.01%, 0.05% × useful granulometry fraction = 4%, 8%, 16%. Pathway: demand ×2 at week 52 and ×5 at week 104 | 156 weeks | `BV1_carbonation_results_summary.xlsx` |
+| BV2 — Capacity requirements | `validation_scenarios/BV2/carbonation_BV2.mdl` and `carbonation_BV2_anticipated_design.mdl` | Constant demand (C1–C3: operating hours 45, 90, 105 h/week; storage 3,600, 7,200, 9,200 kg) and step demand with capacity expanded at the step (S1) or four weeks earlier (S2) | 156 weeks | `BV2_carbonation_results_summary.xlsx` |
+| BV3 — Economic viability | `validation_scenarios/BV3/carbonation_BV3.mdl` | Case C2 of BV2 at steady state; operating costs and carbon prices calculated in the workbook | 156 weeks | `BV3_carbonation_results_summary.xlsx` |
 
 The exact settings of each run are listed in the Parameters sheet of each workbook.
 
@@ -64,7 +64,7 @@ The model is a pilot-scale representation for exploring operating regimes and bo
 
 ## How to cite
 
-Please cite this repository as indicated in `CITATION.cff` or on its Zenodo page (DOI: [to be added]).
+Please cite this repository as indicated in `CITATION.cff`
 
 ## Funding
 
@@ -72,7 +72,7 @@ This work was carried out within the IS2H4C project (*Sustainable Circular Econo
 
 ## Licence
 
-[Licence to be added; see `LICENSE`.]
+MIT License. See LICENSE.
 
 ## Contact
 

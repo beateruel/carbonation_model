@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this model, please cite it as below."
+type: software
+title: "Carbonation–CCU System Dynamics model (IS2H4C, Basque Hub)"
+abstract: >-
+  System Dynamics model of a CCU-enabled circular material flow in the Basque Hub:
+  captured CO2 is used to carbonate pretreated steel slag in a pilot reactor, and the
+  carbonated product is supplied to the cement sector. Includes the baseline model,
+  verification scenarios S1-S4 and validation scenarios BV1-BV3 documented in
+  IS2H4C Deliverable D4.3, Section 5.2.
+authors:
+  - family-names: Royo
+    given-names: Beatriz
+    affiliation: "Zaragoza Logistics Center (ZLC)"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: "1.0"
+date-released: "2026-11-30"
+# doi: "10.5281/zenodo.XXXXXXX"
+# repository-code: "https://github.com/ACCOUNT/carbonation_model"
+license: "CC-BY-4.0"
+keywords:
+  - system dynamics
+  - carbon capture and utilisation
+  - mineral carbonation
+  - steel slag
+  - industrial symbiosis
+  - Vensim
+references:
+  - type: report
+    title: "D4.3 Hub logistics and supply chain management"
+    authors:
+      - family-names: Royo
+        given-names: Beatriz
+      - family-names: de la Cruz
+        given-names: Maria Teresa
+      - family-names: Wang
+        given-names: Jiayun
+      - family-names: Korba
+        given-names: Akrivi
+    institution:
+      name: "IS2H4C project, grant agreement No 101138473"
+    year: 2027

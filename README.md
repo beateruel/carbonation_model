@@ -2,7 +2,7 @@
 
 System Dynamics model of a CCU-enabled circular material flow in the Basque Hub: CO₂ captured at an industrial source is used to carbonate pretreated steel slag in a pilot reactor, and the carbonated product is supplied to the cement sector. The model represents slag availability, reactor capacity, CO₂ availability, product storage and delivery, and reports operational, environmental and cost indicators at weekly resolution.
 
-The model was developed in Work Package 4 of the IS2H4C project and is documented in Deliverable D4.3 *Hub logistics and supply chain management*, Section 5.2 and Appendix 1.
+The model was developed in Work Package 4 of the IS2H4C project and is documented in Deliverable D4.3 *Hub logistics and supply chain management*.
 
 ## Repository contents
 
@@ -15,9 +15,9 @@ carbonation_model/
 │   └── parameters_and_sources.xlsx           Parameters, values, units and sources
 ├── model/
 │   ├── carbonation_baseline.mdl              Baseline model (Vensim)
-│   └── baseline_model_results.xlsx           Baseline indicators (D4.3, Tables 17–18, Figure 16)
+│   └── baseline_model_results.xlsx           Baseline indicators 
 ├── verification_scenarios/
-│   └── verification_scenarios_summary.xlsx   Scenarios S1–S4 (D4.3, Section 5.2.5, Tables A1.1–A1.4, Figure 17)
+│   └── verification_scenarios_summary.xlsx   Scenarios S1–S4 
 └── validation_scenarios/
     ├── BV1/                                  Future market uptake and resource availability
     ├── BV2/                                  Production and logistics capacity requirements
@@ -60,7 +60,7 @@ The exact settings of each run are listed in the Parameters sheet of each workbo
 
 Input data come from the Basque Hub partner (data request and technical note), the literature and public statistics. All sources are listed in `inputs/parameters_and_sources.xlsx`. The original partner documents are not included in this repository.
 
-The model is a pilot-scale representation for exploring operating regimes and bottlenecks. Its results are illustrative and do not constitute a validated industrial design. Limitations are discussed in D4.3, Section 5.2.8.
+The model is a pilot-scale representation for exploring operating regimes and bottlenecks. Its results are illustrative and do not constitute a validated industrial design. Limitations are discussed in D4.3.
 
 ## How to cite
 
